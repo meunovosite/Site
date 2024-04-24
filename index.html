@@ -5,6 +5,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
     <link rel="icon" href="Carimbo-J&A (2).png">
     <title>Casamento Jam&Ale</title>
 
@@ -14,10 +17,10 @@
     <header>
         <img class="header" src="imagens/header.jpeg" alt="jam e ale" class="pic">
         <div class="title1 flores">
-            <h1 class="font-white"> Jamile & Alessandro</h1>
-            <h2 class="font-white">Save The Date</h2>
-            <h4 class="font-white">5 de outubro de 2024</h4>
-            <h4 class="font-white">Salvador-BA</h4>
+            <h1 class="font-color"> Jamile & Alessandro</h1> <br>
+            <h2 class="font-color"r>Save The Date</h2>
+            <h4 class="font-color"r>5 de outubro de 2024</h4>
+            <h4 class="font-color"r>Salvador-BA</h4>
         </div>
         <div class="flores">
         </div>
@@ -65,37 +68,39 @@
             vontade! Aguardamos vocês no nosso grande dia!
         </P>
 
-        <div class="casal">
-            <p class="title">O CASAL</p>
-            <div class="casalfotos">
-                <img class="perfil" src="imagens/perfil jam.jpg" alt="">
-                <img class="perfil" src="imagens/perfil ale.jpg" alt="">
+        <div class="bg-casal">
+            <div class="casal">
+                <p class="title">O CASAL</p>
+                <div class="casalfotos">
+                    <img class="perfil" src="imagens/perfil jam.jpg" alt="">
+                    <img class="perfil" src="imagens/perfil ale.jpg" alt="">
+                </div>
+                <p>Jam & Ale</p>
+
+
+                <p class="p-casal">Vamos nos casar! Estamos preparando tudo com
+                    muito carinho para curtirmos cada momento
+                    com nossos amigos e familiares queridos!</p>
             </div>
-            <p>Jam & Ale</p>
 
-
-            <p>Vamos nos casar! Estamos preparando tudo com
-                muito carinho para curtirmos cada momento
-                com nossos amigos e familiares queridos!</p>
+            <!-- Carrossel de imagens -->
+            <div class="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item">
+                        <img src="imagens/1.jpeg" alt="">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="imagens/3.jpeg" alt="">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="imagens/5.jpeg" alt="">
+                    </div>
+                    <!-- Adicione mais imagens aqui conforme necessário -->
+                </div>
+            </div>
         </div>
 
-        <!-- Carrossel de imagens -->
-        <div class="carousel">
-            <div class="carousel-inner">
-                <div class="carousel-item">
-                    <img src="imagens/1.jpeg" alt="">
-                </div>
-                <div class="carousel-item">
-                    <img src="imagens/3.jpeg" alt="">
-                </div>
-                <div class="carousel-item">
-                    <img src="imagens/5.jpeg" alt="">
-                </div>
-                <!-- Adicione mais imagens aqui conforme necessário -->
-            </div>
-        </div>
-
-        <div class="evento">
+        <div class="evento bg">
             <p class="title">CERIMÔNIA</p>
             <img src="imagens/igreja.jpeg" alt="">
             <p>
@@ -108,19 +113,17 @@
             </p>
 
         </div>
-        <div class="evento">
-            <p class="title">RECEPÇÃO</p>
-            <img src="imagens/mesa.jpeg" alt="">
-            <p>
-                Os noivos convidam para um brinde intimista no
-                dia 05 de outubro de 2024, no jardim da capela
-                Sagrada Famíila. Será após a cerimonia . Não vai
-                perder, né?
-            </p>
-            <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1478.2797985755021!2d-38.5209708100619!3d-12.990639978140765!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x71604857b8f1cd9%3A0xb937ef6552a78e93!2sCapela%20Sagrada%20Fam%C3%ADlia%20Dorot%C3%A9ias!5e0!3m2!1spt-BR!2sbr!4v1713848328297!5m2!1spt-BR!2sbr"
-                width="300" height="200" style="border:0;" allowfullscreen="" loading="lazy"
-                referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <div>
+            <div class="evento">
+                <p class="title">RECEPÇÃO</p>
+                <img src="imagens/mesa.jpeg" alt="">
+                <p>
+                    Os noivos convidam para um brinde intimista no
+                    dia 05 de outubro de 2024, no jardim da capela
+                    Sagrada Famíila. Será após a cerimonia . Não vai
+                    perder, né?
+                </p>
+            </div>
         </div>
 
         <div id="popup" class="popup">
@@ -132,7 +135,7 @@
             </div>
         </div>
 
-        <div class="presents">
+        <div class="presents bg">
             <p class="title">LISTA DE PRESENTES</p>
             <div class="card">
                 <img src="imagens/taxi.jpeg" alt="Imagem">
@@ -234,7 +237,7 @@
         </div>
 
         <div class="confirm">
-            <a
+            <a class="link-confirmar"
                 href="https://wa.me/5511994886336?text=Ol%C3%A1+Jam+%26+Al%C3%AA%21+Estou+ansioso%28a%29+pelo+grande+dia+de+voc%C3%AAs.+Confirme+minha+presen%C3%A7a%21">
 
                 <p class="title">CONFIRME SUA PRESENÇA</p>
@@ -243,14 +246,15 @@
 
         <footer>
             <div class="insta">
-                <div class="footer-section follow">
-                    <a href="https://www.instagram.com/jamilefeerreira/" target="_blank"> <i
-                            class="fab fa-instagram"></i></a>
-                </div>
-                <div class="footer-section follow">
-                    <a href="https://www.instagram.com/alessandrolmenezes/" target="_blank"> <i
-                            class="fab fa-instagram"></i></a>
-                </div>
+                
+                    <a href="https://www.instagram.com/jamilefeerreira/" target="_blank"> 
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                 
+                    <a href="https://www.instagram.com/alessandrolmenezes/" target="_blank"> 
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                
             </div>
 
             <div class="footer-bottom">
