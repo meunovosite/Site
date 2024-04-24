@@ -87,9 +87,14 @@ img {
     border-radius: 50%;
 }
 
-header,
-header img {
+header {
     width: 100%;
+}
+
+.foto-header {
+    width: 196%;
+    position: relative;
+    right: 108px;
 }
 
 .evento {
@@ -355,6 +360,7 @@ footer {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    
 }
 
 .footer-bottom {
@@ -362,6 +368,7 @@ footer {
     font-size: 15px;
     color: #ffffff;
     padding-bottom: 10px;
+    font-style: italic;
 }
 
 .fa-instagram {
