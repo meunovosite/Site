@@ -28,8 +28,9 @@ html {
 .casalfotos {
     display: flex;
     width: 100%;
-    justify-content: space-evenly;
+    justify-content: center;
     align-items: center;
+    gap: 10px;
 }
 
 .p-casal {
@@ -111,33 +112,34 @@ header img {
 }
 
 .card {
-    width: 300px;
+    width: 150px;
     border: 1px solid #ffffff;
-    border-radius: 8px;
-    padding: 25px;
+    border-radius: 20px;
+    padding: 10px 0;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     text-align: center;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
     background-color: #ffffff;
     margin: 10px;
+    min-height: 40vh;
 }
 
 .card img {
-    width: 70%;
-    border-radius: 8px;
+    width: 80%;
+    border-radius: 20px;
 }
 
 .card h2 {
-    margin-top: 10px;
-    font-size: 18px;
+    margin: 10px 15px;
+    font-size: 12px;
 }
 
 
 .card p {
-    font-size: 24px;
+    font-size: 20px;
     color: #888;
     font-weight: bold;
     margin: 0;
@@ -149,11 +151,16 @@ header img {
     background-color: #627c72;
     color: #fff;
     border: none;
-    border-radius: 5px;
+    border-radius: 20px;
     cursor: pointer;
     transition: background-color 0.3s ease;
-    width: 100%;
-    font-size: 20px;
+    width: 90%;
+    font-size: 14px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
 }
 
 .card button:hover {
@@ -262,11 +269,11 @@ h4 {
 
 .presents {
     display: flex;
-    flex-direction: column;
     justify-content: center;
     align-items: center;
     margin: 30px auto;
     gap: 10px;
+    flex-wrap: wrap;
 }
 
 body {
@@ -311,7 +318,6 @@ h2 {
 }
 
 .confirm {
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     text-align: center;
     display: flex;
     flex-direction: column;
@@ -321,12 +327,24 @@ h2 {
 }
 
 
-.link-confirmar  {
-    border: none;
-    width: 100%;
+.link-confirmar {
+    display: inline-block;
+    padding: 0;
+    background-color: #627c72;
+    color: #fff;
     text-decoration: none;
-    padding-top: 40px;
+    border-radius: 60px;
+    transition: background-color 0.3s ease;
+    width: 80%;
+    margin-bottom: 30px;
 }
+
+.confirm .button {
+    color: #ffffff;
+    text-align: center;
+    font-size: 26px;
+}
+
 
 footer {
     background-color: #747972a3;
@@ -349,7 +367,7 @@ footer {
 .fa-instagram {
     color: #ffffff;
     font-size: 34px;
-    margin: 0 15px;
+    margin: 30px 15px 0;
 }
 
 .insta {
