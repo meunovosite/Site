@@ -92,9 +92,9 @@ header {
 }
 
 .foto-header {
-    width: 196%;
+    width: 214%;
     position: relative;
-    right: 108px;
+    right: 175px;
 }
 
 .evento {
@@ -256,11 +256,11 @@ h4 {
     text-align: center;
     background-color: rgb(255, 255, 255);
     box-shadow:11px 8px 1px 0px #747972 ;
-    padding: 10%;
+    padding: 15%;
     margin-left: 10%;
     margin-right: 10%;
     position: relative;
-    top: -30px;
+    top: -126px;
 }
 
 .font-color {
