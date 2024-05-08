@@ -153,7 +153,7 @@ header {
 .card button {
     margin-top: 15px;
     padding: 15px 30px;
-    background-color: #627c72;
+    background-color: #b4b894;
     color: #fff;
     border: none;
     border-radius: 20px;
@@ -196,7 +196,7 @@ header {
 .popup-content button {
     margin-top: 15px;
     padding: 15px 30px;
-    background-color: #87a89b;
+    background-color: #b4b894;
     color: #fff;
     border: none;
     border-radius: 5px;
@@ -255,7 +255,7 @@ h4 {
     font-weight: bold;
     text-align: center;
     background-color: rgb(255, 255, 255);
-    box-shadow:11px 8px 1px 0px #747972 ;
+    box-shadow:11px 8px 1px 0px #777b58 ;
     padding: 15%;
     margin-left: 10%;
     margin-right: 10%;
@@ -269,7 +269,7 @@ h4 {
 }
 
 .flores {
-    background-image: url(imagens/Carimbo-J&A.png);
+    background-image: url(imagens/Jam&Ale.invited.png);
 }
 
 .presents {
@@ -335,7 +335,7 @@ h2 {
 .link-confirmar {
     display: inline-block;
     padding: 0;
-    background-color: #627c72;
+    background-color: #b4b894;
     color: #fff;
     text-decoration: none;
     border-radius: 60px;
@@ -352,7 +352,7 @@ h2 {
 
 
 footer {
-    background-color: #747972a3;
+    background-color: #777b58;
     color: #ffffff;
     padding: 5px 0;
     text-align: center;
@@ -385,3 +385,24 @@ footer {
     align-items: center;
     
 }
+
+nav ul {
+    padding: 20px;
+    list-style-type: none;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+nav ul li a {
+    color: #545252;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
