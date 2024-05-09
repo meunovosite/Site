@@ -8,10 +8,17 @@
 </head>
 <body>
     <div class="video-container">
-        <video controls autoplay>
+        <video id="meu-video" controls autoplay>
             <source src="imagens/lv_0_20240507003234~2.mp4" type="video/mp4">
             Seu navegador não suporta o elemento de vídeo.
         </video>
     </div>
+
+    <script>
+        window.onload = function() {
+            var video = document.getElementById('meu-video');
+            video.play();
+        };
+    </script>
 </body>
 </html>
