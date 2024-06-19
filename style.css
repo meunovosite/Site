@@ -92,9 +92,9 @@ header {
 }
 
 .foto-header {
-    width: 214%;
+    width: 200%;
     position: relative;
-    right: 175px;
+    right: 214px;
 }
 
 .evento {
@@ -332,17 +332,7 @@ h2 {
 }
 
 
-.link-confirmar {
-    display: inline-block;
-    padding: 0;
-    background-color: #b4b894;
-    color: #fff;
-    text-decoration: none;
-    border-radius: 60px;
-    transition: background-color 0.3s ease;
-    width: 80%;
-    margin-bottom: 30px;
-}
+
 
 .confirm .button {
     color: #ffffff;
