@@ -329,8 +329,13 @@ h2 {
     justify-content: center;
     align-items: center;
     width: 100%;
+
 }
 
+.link-confirmar {
+    text-decoration: none;
+
+}
 
 
 
@@ -338,6 +343,15 @@ h2 {
     color: #ffffff;
     text-align: center;
     font-size: 26px;
+    background-color: #b1b39f;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    width: 80%;
+    height: 40px;
+    margin-bottom: 20px;
+    
 }
 
 
