@@ -334,6 +334,9 @@ h2 {
 
 .link-confirmar {
     text-decoration: none;
+display: flex;
+justify-content: center;
+align-items: center;
 
 }
 
@@ -349,7 +352,7 @@ h2 {
     cursor: pointer;
     transition: background-color 0.3s ease;
     width: 80%;
-    height: 40px;
+    height: 38px;
     margin-bottom: 20px;
     
 }
