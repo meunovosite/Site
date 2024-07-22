@@ -11,6 +11,12 @@ html {
     overflow-x: hidden;
 }
 
+.p-list {
+    font-size: 15px;
+    margin: 0 15% 10% 15%;
+    font-style: italic;
+}
+
 .casal {
     display: flex;
     flex-direction: column;
@@ -345,7 +351,8 @@ align-items: center;
 .confirm .button {
     color: #ffffff;
     text-align: center;
-    font-size: 26px;
+    font-size: 20px;
+    text-transform: uppercase;
     background-color: #b1b39f;
     border: none;
     border-radius: 20px;
@@ -353,7 +360,7 @@ align-items: center;
     transition: background-color 0.3s ease;
     width: 80%;
     height: 45px;
-    margin-bottom: 20px;
+    margin-bottom: 50px;
     
 }
 
