@@ -8,19 +8,10 @@
 </head>
 <body>
     <div class="video-container" id="video-container">
-        <video id="meu-video" controls autoplay allow="autoplay; fullscreen">
+        <video id="meu-video" controls autoplay allow="autoplay;" muted>
             <source src="imagens/Cópia de S2.mp4" type="video/mp4">
             Seu navegador não suporta o elemento de vídeo.
         </video>
     </div>
-
-    <script>
-         var container = document.getElementById('video-container');
-         container.click()
-        document.getElementById('meu-video').addEventListener('loadedmetadata', function() {
-            var video = document.getElementById('meu-video');
-            video.play();
-        });
-    </script>
 </body>
 </html>
